@@ -17,7 +17,7 @@ homebridge -P path/of/the/plugin/homebridge-myplugin/
 For more plugins:
 
 ```
-`homebridge -P first/path/homebridge-firstplugin/ -P second/path/homebridge-secondplugin/
+homebridge -P first/path/homebridge-firstplugin/ -P second/path/homebridge-secondplugin/
 ```
 
 ## Install plugins globally (unrecommended when testing plugins)
