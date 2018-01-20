@@ -1,0 +1,59 @@
+{
+        "bridge": {
+                "name": "Homebridge",
+                "username": "CC:22:3D:E3:CE:30",
+                "port": 51826,
+                "pin": "031-45-154",
+                "manufacturer": "Marc Julian Schwarz",
+                "model": "Homebridge",
+                "serialNumber": "1-1-1-1"
+   },
+        "description": "Meine tollen Geraete am Raspberry Pi.",
+        "accessories": [
+        
+        {
+                "accessory": "MyTemp",
+                "name": "Raumtemperatur",
+                "manufacturer": "Marc Julian Schwarz",
+                "model": "iTemp",
+                "serial": "2",
+                "version": "1.0.0"
+        }, {
+                "accessory": "My433",
+                "name": "Lampe",
+                "codeOn": "13982732",
+                "codeOff": "13982723",
+                "pin": "25",
+                "pulseLength": "340",
+                "last": "False",
+                "manufacturer": "Marc Julian Schwarz",
+                "model": "iDesk",
+                "serial": "3",
+                "version": "1.0.0"
+        }, {
+                "accessory": "My433",
+                "name": "Leselampe",
+                "codeOn": "13988876",
+                "codeOff": "13988867",
+                "pin": "25",
+                "pulseLength": "340",
+                "last": "True",
+                "manufacturer": "Marc Julian Schwarz",
+                "model": "iRead",
+                "serial": "4",
+                "version": "1.0.0"
+}, {
+                "accessory": "MyMotion",
+                "name": "Bewegung",
+                "manufacturer": "Marc Julian Schwarz",
+                "model": "iMotion",
+                "serial": "5",
+                "version": "1.0.0"
+        }
+    ],
+    "platforms": [
+    ]
+}
+
+
+
