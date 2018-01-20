@@ -1,0 +1,3 @@
+# Homebridge Raspberry Pi Plugins
+
+Ein paar tolle Plugins...
